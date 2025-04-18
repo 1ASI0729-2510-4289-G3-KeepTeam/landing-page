@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    font-family: "Overpass";
+}
+.header {
+    background-color: #FFFDF4;
+}
+.logo{
+    width: 120px;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.options{
+    list-style: none;
+    align-items: center;
+    display:flex;
+
+}
+.options li{
+    padding: 0 30px;
+}
+.options li a{
+    color: #9D3F23;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px;
+    position: relative;
+}
+.options li a::before{
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left:0;
+    background-color: #8d5a1d85;
+    height: 3px;
+    width: 0;
+}
+.options li a:hover::before{
+    width: 100%;
+    transition:all 0.5s ease;
+}
+.options li button{
+    background-color: #FFFABD;
+    width: 180px;
+    height: 45px;
+    color: #DBB741;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 300;
+}
+.options li button:hover{
+    background-color: #da994f;
+    color:#ffffff;
+    transition: all 0.4s ease;
+}
+.options li button:active{
+    background-color: #cf9c3f;
+    color:#ffffff;
+}
+.header{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
