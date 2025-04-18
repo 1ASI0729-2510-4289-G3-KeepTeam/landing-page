@@ -120,3 +120,21 @@ body{
     background-color: #ffbe31;
     transition: all 0.3s ease;
 }
+
+
+.Estadisticas{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 85vh;
+    gap: 10px;
+    background-position: center;
+}
+
+.Estadisticas img{
+    width: 869px;
+}
+.EstadisticaContainer{
+    display: flex;
+    gap: 70px;
+}
