@@ -15,15 +15,15 @@
         <nav class="navbar" aria-label="Navigation bar">
             <a href="#default"><img class="logo" src="assets/LogoKeeplo2.png" alt="logo"></a>
             <ul class="options">
-                <li><a href="#WhatKeeplo" id="navItem1"></a></li>
-                <li><a href="#plans" id="navItem2"></a></li>
-                <li><a href="#WhyUs" id="navItem3"></a></li>
-                <li><button aria-label="Log in to your SafeCycle account" id="LogIn"></button></li>
+                <li><a href="#WhatKeeplo" id="navItem1" role="Navigation item"></a></li>
+                <li><a href="#plans" id="navItem2" role="Navigation item"></a></li>
+                <li><a href="#WhyUs" id="navItem3" role="Navigation item"></a></li>
+                <li><button aria-label="Log in to your Keeplo account" id="LogIn"></button></li>
             </ul>
         </nav>
     </header>
     
-    <section class="Introduction">
+    <section class="Introduction" aria-label="Introduction section">
 
         <h1>Keeplo</h1>
         <p id="introductionDesc"></p>
@@ -33,7 +33,7 @@
     </section>
 
    
-    <section class="Estadisticas">
+    <section class="Estadisticas" aria-label="Stadistics section">
 
         <img src="assets/stadistics.png" alt="Personas usando su celular">
 
@@ -52,7 +52,7 @@
     </section>
 
 
-    <section id="WhatKeeplo">
+    <section id="WhatKeeplo" aria-label="What is Keeplo section">
         <h1 id="WhatsKeeploTitulo"></h1>
 
         <div class="charactContainter">
@@ -99,7 +99,7 @@
 
     </section>
 
-    <section class="KeeploUsers">
+    <section class="KeeploUsers" aria-label="The Users of Keeplo section">
 
         <h1 id="keeplouserTitle"></h1>
 
@@ -126,7 +126,7 @@
     </div>
     </section>
 
-    <section id="plans">
+    <section id="plans" aria-label="Plans section">
 
         <h1 id="plansTitle"></h1>
 
@@ -163,7 +163,7 @@
 
     </section>
 
-    <section id="WhyUs">
+    <section id="WhyUs" aria-label="Why Us section">
 
         <h1 id="WhyUsTitle"></h1>
 
@@ -179,21 +179,21 @@
 
     </section>
 
-    <footer>
+    <footer aria-label="Footer section">
         <div class="containerFooter">
             <img src="assets/LogoKeeplo2.png" alt="Logo Keeplo">
-            <div class="Socials">
-                <img src="assets/facebook.png" alt="Logo Facebook">
-                <img src="assets/instagram.png" alt="Logo Instagram">
-                <img src="assets/twitter.png" alt="Logo Twitter">
+            <div class="Socials" aria-label="Redes sociales de Keeplo">
+                <img src="assets/facebook.png" alt="Logo Facebook" aria-label="Redirect to Facebook page" >
+                <img src="assets/instagram.png" alt="Logo Instagram" aria-label="Redirect to  Instagram page">
+                <img src="assets/twitter.png" alt="Logo Twitter" aria-label="Redirect to Twitter page">
             </div>
             <h1 id="contactText" style="color: #FFFAF3;font-size: 30px;"></h1>
         </div>
     </footer>
 
-    <div class="Language">
-        <button onclick="setLanguage('es')" class="LanguageButtons">ES</button>
-        <button onclick="setLanguage('en')" class="LanguageButtons">EN</button>
+    <div class="Language" aria-label="Language Selector">
+        <button onclick="setLanguage('es')" class="LanguageButtons" aria-label="Cambiar a Español">ES</button>
+        <button onclick="setLanguage('en')" class="LanguageButtons" aria-label="Change to english">EN</button>
         </div>
 
     <script src="script.js"></script>
