@@ -1,0 +1,53 @@
+{
+    "navItem1": "What’s Keeplo",
+    "navItem2": "Plans",
+    "navItem3": "Why Us",
+    "LogIn": "Log in",
+
+    "introductionDesc": "Find it. Love it. Keeplo it.",
+    "startIntroduction": "Start Now",
+    "StadisticsNumber1": "Shared Collections",
+    "StadisticsNumber2": "Organized ideas",
+    "WhatsKeeploTitulo": "All in One Place",
+
+    "characteristic1Title": "Shareable",
+    "characteristic1desc":"Generate QR codes or shareable links in one click",
+
+    "characteristic2Title": "Organization",
+    "characteristic2desc":"Group your saved items by category, mood, or purpose",
+
+    "characteristic3Title": "Efficiency",
+    "characteristic3desc":"Find your stored ideas in one search ",
+    
+    "keeplouserTitle": "Who’s Keeplo for?",
+    "keeploUserTitle1": "Shoppers",
+    "keeploUserdesc1": "Keep track of products you love.",
+    "keeploUserTitle2": "Designers",
+    "keeploUserdesc2": "Save visual inspiration from anywhere in one spot.",
+    "plansTitle": "Plans",
+    "Plan1Title": "Shopper",
+    "Plan1Price":"$5",
+    "Plan1Description":"For the strategic spenders",
+    "Plan1Char1": "Comparing products across sites",
+    "Plan1Char2":"Tracking deals or product updates",
+    "Plan1Char3": "Sharing items with friends/family before buying",
+    "ButtonStartPlan1": "Start as Shopper",
+    "Plan2Title": "Designer",
+    "Plan2Price":"$10",
+    "Plan2Description":"For those who have art on their mind",
+    "Plan2Char1": "Save images from anywhere",
+    "Plan2Char2":"Organize your visual ideas",
+    "Plan2Char3": "Tagging/annotating content",
+    "Plan2Char4": "Preparing content for visual presentations",
+    "Plan2Char5": "Moodboard export",
+    "Plan2Char6": "QR Sharing",
+
+    "ButtonStartPlan2": "Start as Designer",
+    "WhyUsTitle": "Why Us?",
+    "Reason1": "✅ No more screenshot clutter",
+    "Reason2": "✅ Quick access across all devices",
+    "Reason3": "✅ Share collections in seconds",
+    "Reason4": "✅ Fully customizable to your style",
+    "contactText":"Contact Us"
+
+}
