@@ -149,7 +149,7 @@ body{
     font-size: 110px;
 }
 
-.WhatKeeplo h1{
+#WhatKeeplo h1{
 padding-top: 20px;
  color: #EB944D;
  font-size: 60px;
@@ -172,7 +172,7 @@ padding-top: 20px;
     flex-direction: column;
     width: 140px;
 }
-.WhatKeeplo{
+#WhatKeeplo{
     background-color: #FFFABD;
 }
 .charactContainter{
