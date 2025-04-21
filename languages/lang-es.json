@@ -1,0 +1,55 @@
+{
+    "navItem1": "Qué es Keeplo",
+    "navItem2": "Planes",
+    "navItem3": "Por qué elegirnos",
+    "LogIn": "Iniciar sesión",
+
+    "introductionDesc": "Encuéntralo. Ámalo. Keeplo.",
+    "startIntroduction": "Empezar ahora",
+    "StadisticsNumber1": "Colecciones compartidas",
+    "StadisticsNumber2": "Ideas organizadas",
+    "WhatsKeeploTitulo": "Todo en un solo lugar",
+
+    "characteristic1Title": "Compartible",
+    "characteristic1desc":"Genera códigos QR o enlaces compartibles con un solo clic",
+
+    "characteristic2Title": "Organización",
+    "characteristic2desc":"Agrupa tus elementos guardados por categoría, estado de ánimo o propósito",
+
+    "characteristic3Title": "Eficiencia",
+    "characteristic3desc":"Encuentra tus ideas guardadas en una sola búsqueda",
+    
+    "keeplouserTitle": "¿Para quién es Keeplo?",
+    "keeploUserTitle1": "Compradores",
+    "keeploUserdesc1": "Lleva un registro de los productos que te encantan.",
+    "keeploUserTitle2": "Diseñadores",
+    "keeploUserdesc2": "Guarda inspiración visual de cualquier lugar en un solo sitio.",
+    
+    "plansTitle": "Planes",
+    "Plan1Title": "Comprador",
+    "Plan1Price":"$5",
+    "Plan1Description":"Para los que gastan con estrategia",
+    "Plan1Char1": "Comparación de productos entre sitios",
+    "Plan1Char2":"Seguimiento de ofertas o actualizaciones",
+    "Plan1Char3": "Compartir artículos con amigos/familia antes de comprar",
+    "ButtonStartPlan1": "Ser Comprador",
+
+    "Plan2Title": "Diseñador",
+    "Plan2Price":"$10",
+    "Plan2Description":"Para quienes piensan en arte",
+    "Plan2Char1": "Guardar imágenes desde cualquier lugar",
+    "Plan2Char2":"Organiza tus ideas visuales",
+    "Plan2Char3": "Etiquetado/anotación de contenido",
+    "Plan2Char4": "Preparar contenido para presentaciones visuales",
+    "Plan2Char5": "Exportación de moodboards",
+    "Plan2Char6": "Compartir por QR",
+
+    "ButtonStartPlan2": "Ser Diseñador",
+
+    "WhyUsTitle": "¿Por qué nosotros?",
+    "Reason1": "✅ No más caos de capturas de pantalla",
+    "Reason2": "✅ Acceso rápido desde todos tus dispositivos",
+    "Reason3": "✅ Comparte colecciones en segundos",
+    "Reason4": "✅ Totalmente personalizable a tu estilo",
+    "contactText":"Contáctanos"
+}
