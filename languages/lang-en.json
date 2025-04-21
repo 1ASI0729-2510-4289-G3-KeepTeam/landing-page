@@ -1,66 +1,53 @@
 {
-    "navItem1": "Fares",
+    "navItem1": "What’s Keeplo",
     "navItem2": "Plans",
     "navItem3": "Why Us",
     "LogIn": "Log in",
-  
-    "descripcionIntro": "Move freely, ",
-    "descripcionIntro2": " ride securely",
-    "IntroductionButton": "Start Now",
-  
- 
-    "StadisticsNumber1": "Available Bikes",
-    "StadisticsNumber2": "Kilometers Ridden",
-    "StadisticsNumber3": "Safe Travels",
-  
-    "WhatWeOfferTitle": "What we offer",
-    "Offer1Title": "Security",
-    "Offer1Desc1": "Automatic bike lock",
-    "Offer1Desc2": "for worry-free rides",
-    "Offer2Title": "Comfort",
-    "Offer2Desc1": "Easy access to",
-    "Offer2Desc2": "smooth, comfy rides",
-    "Offer3Title": "Dynamism",
-    "Offer3Desc1": "Skip the traffic,",
-    "Offer3Desc2": "skip the wait",
-  
-    "PlansTitle1": "A plan tailored to your needs",
-    "Plans1": "Student Plan",
-    "Plans1Desc1": "Quick rentals, low cost.",
-    "Plans1Desc2": "Pay with Yape, no cash needed",
-    "Plans1Desc3": "Student discount fare",
-    "planButton1": "Apply for Student Plan",
-  
-    "Plans2": "Tourist Plan",
-    "Plans2Desc1": "Ride freely, like a local.",
-    "Plans2Desc2": "Tourism in group",
-    "Plans2Desc3": "Pay with PayPal from Anywhere",
-    "planButton2": "Start as Tourist",
-  
-    "FaresTitle": "Fares",
-    "Fee1Title": "General",
-    "Fee1amouunt": "0.045",
-    "FeeForMinute": "S/. for every minute",
-    "Fee2Title": "Student",
-    "Fee2amouunt": "0.035",
-  
-    "WorkTitle": "How does it work?",
-    "Workstep1": "📲  Register",
-    "Workstep2": "📍  Find It",
-    "Workstep3": "🔒 Unlock It",
-    "Workstep4": "🚴 Enjoy",
-  
-    "whyusTitle": "Why Us?",
-    "WhyUsSafeCycleList1": "Time-based payments",
-    "WhyUsSafeCycleList2": "Instant access, no delays",
-    "WhyUsSafeCycleList3": "Total comfort, every ride",
-    "WhyUsSafeCycleList4": "Eco-friendly",
-  
-    "WhyUsOtrosTitle": "Others",
-    "WhyUsOthersList1": "Fixed cost",
-    "WhyUsOthersList2": "Delays",
-    "WhyUsOthersList3": "Uncomfortable",
-    "WhyUsOthersList4": "Polluting",
-  
-    "contactTitle": "Contact Us"
-  }
+
+    "introductionDesc": "Find it. Love it. Keeplo it.",
+    "startIntroduction": "Start Now",
+    "StadisticsNumber1": "Shared Collections",
+    "StadisticsNumber2": "Organized ideas",
+    "WhatsKeeploTitulo": "All in One Place",
+
+    "characteristic1Title": "Shareable",
+    "characteristic1desc":"Generate QR codes or shareable links in one click",
+
+    "characteristic2Title": "Organization",
+    "characteristic2desc":"Group your saved items by category, mood, or purpose",
+
+    "characteristic3Title": "Efficiency",
+    "characteristic3desc":"Find your stored ideas in one search ",
+    
+    "keeplouserTitle": "Who’s Keeplo for?",
+    "keeploUserTitle1": "Shoppers",
+    "keeploUserdesc1": "Keep track of products you love.",
+    "keeploUserTitle2": "Designers",
+    "keeploUserdesc2": "Save visual inspiration from anywhere in one spot.",
+    "plansTitle": "Plans",
+    "Plan1Title": "Shopper",
+    "Plan1Price":"$5",
+    "Plan1Description":"For the strategic spenders",
+    "Plan1Char1": "Comparing products across sites",
+    "Plan1Char2":"Tracking deals or product updates",
+    "Plan1Char3": "Sharing items with friends/family before buying",
+    "ButtonStartPlan1": "Start as Shopper",
+    "Plan2Title": "Designer",
+    "Plan2Price":"$10",
+    "Plan2Description":"For those who have art on their mind",
+    "Plan2Char1": "Save images from anywhere",
+    "Plan2Char2":"Organize your visual ideas",
+    "Plan2Char3": "Tagging/annotating content",
+    "Plan2Char4": "Preparing content for visual presentations",
+    "Plan2Char5": "Moodboard export",
+    "Plan2Char6": "QR Sharing",
+
+    "ButtonStartPlan2": "Start as Designer",
+    "WhyUsTitle": "Why Us?",
+    "Reason1": "✅ No more screenshot clutter",
+    "Reason2": "✅ Quick access across all devices",
+    "Reason3": "✅ Share collections in seconds",
+    "Reason4": "✅ Fully customizable to your style",
+    "contactText":"Contact Us"
+
+}

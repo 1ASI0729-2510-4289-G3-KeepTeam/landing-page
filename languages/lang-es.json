@@ -1,65 +1,55 @@
 {
-    "navItem1": "Tarifas",
+    "navItem1": "Qué es Keeplo",
     "navItem2": "Planes",
-    "navItem3": "Por qué nosotros",
+    "navItem3": "Por qué elegirnos",
     "LogIn": "Iniciar sesión",
-  
-    "descripcionIntro": "Muévete libremente, ",
-    "descripcionIntro2": " viaja seguro",
-    "IntroductionButton": "Empieza ahora",
-  
-    "StadisticsNumber1": "Bicicletas disponibles",
-    "StadisticsNumber2": "Kilómetros recorridos",
-    "StadisticsNumber3": "Viajes seguros",
-  
-    "WhatWeOfferTitle": "Lo que ofrecemos",
-    "Offer1Title": "Seguridad",
-    "Offer1Desc1": "Candado automático",
-    "Offer1Desc2": "para viajes sin preocupaciones",
-    "Offer2Title": "Comodidad",
-    "Offer2Desc1": "Acceso fácil a",
-    "Offer2Desc2": "viajes cómodos y fluidos",
-    "Offer3Title": "Dinamismo",
-    "Offer3Desc1": "Evita el tráfico,",
-    "Offer3Desc2": "evita la espera",
-  
-    "PlansTitle1": "Un plan a tu medida",
-    "Plans1": "Plan Estudiante",
-    "Plans1Desc1": "Alquiler rápido, bajo costo.",
-    "Plans1Desc2": "Paga con Yape, sin efectivo",
-    "Plans1Desc3": "Tarifa con descuento para estudiantes",
-    "planButton1": "Solicita el Plan Estudiante",
-  
-    "Plans2": "Plan Turista",
-    "Plans2Desc1": "Viaja libre, como un local.",
-    "Plans2Desc2": "Turismo en grupo",
-    "Plans2Desc3": "Paga con PayPal desde cualquier lugar",
-    "planButton2": "Comienza como Turista",
-  
-    "FaresTitle": "Tarifas",
-    "Fee1Title": "General",
-    "Fee1amouunt": "0.045",
-    "FeeForMinute": "S/. por cada minuto",
-    "Fee2Title": "Estudiante",
-    "Fee2amouunt": "0.035",
-  
-    "WorkTitle": "¿Cómo funciona?",
-    "Workstep1": "📲  Regístrate",
-    "Workstep2": "📍  Encuéntrala",
-    "Workstep3": "🔒 Desbloquéala",
-    "Workstep4": "🚴 Disfruta",
-  
-    "whyusTitle": "¿Por qué nosotros?",
-    "WhyUsSafeCycleList1": "Pagos por tiempo",
-    "WhyUsSafeCycleList2": "Acceso instantáneo, sin demoras",
-    "WhyUsSafeCycleList3": "Comodidad total, en cada viaje",
-    "WhyUsSafeCycleList4": "Ecológico",
-  
-    "WhyUsOtrosTitle": "Otros",
-    "WhyUsOthersList1": "Costo fijo",
-    "WhyUsOthersList2": "Demoras",
-    "WhyUsOthersList3": "Incómodo",
-    "WhyUsOthersList4": "Contaminante",
-  
-    "contactTitle": "Contáctanos"
-  }
+
+    "introductionDesc": "Encuéntralo. Ámalo. Keeplo.",
+    "startIntroduction": "Empezar ahora",
+    "StadisticsNumber1": "Colecciones compartidas",
+    "StadisticsNumber2": "Ideas organizadas",
+    "WhatsKeeploTitulo": "Todo en un solo lugar",
+
+    "characteristic1Title": "Compartible",
+    "characteristic1desc":"Genera códigos QR o enlaces compartibles con un solo clic",
+
+    "characteristic2Title": "Organización",
+    "characteristic2desc":"Agrupa tus elementos guardados por categoría, estado de ánimo o propósito",
+
+    "characteristic3Title": "Eficiencia",
+    "characteristic3desc":"Encuentra tus ideas guardadas en una sola búsqueda",
+    
+    "keeplouserTitle": "¿Para quién es Keeplo?",
+    "keeploUserTitle1": "Compradores",
+    "keeploUserdesc1": "Lleva un registro de los productos que te encantan.",
+    "keeploUserTitle2": "Diseñadores",
+    "keeploUserdesc2": "Guarda inspiración visual de cualquier lugar en un solo sitio.",
+    
+    "plansTitle": "Planes",
+    "Plan1Title": "Comprador",
+    "Plan1Price":"$5",
+    "Plan1Description":"Para los que gastan con estrategia",
+    "Plan1Char1": "Comparación de productos entre sitios",
+    "Plan1Char2":"Seguimiento de ofertas o actualizaciones",
+    "Plan1Char3": "Compartir artículos con amigos/familia antes de comprar",
+    "ButtonStartPlan1": "Ser Comprador",
+
+    "Plan2Title": "Diseñador",
+    "Plan2Price":"$10",
+    "Plan2Description":"Para quienes piensan en arte",
+    "Plan2Char1": "Guardar imágenes desde cualquier lugar",
+    "Plan2Char2":"Organiza tus ideas visuales",
+    "Plan2Char3": "Etiquetado/anotación de contenido",
+    "Plan2Char4": "Preparar contenido para presentaciones visuales",
+    "Plan2Char5": "Exportación de moodboards",
+    "Plan2Char6": "Compartir por QR",
+
+    "ButtonStartPlan2": "Ser Diseñador",
+
+    "WhyUsTitle": "¿Por qué nosotros?",
+    "Reason1": "✅ No más caos de capturas de pantalla",
+    "Reason2": "✅ Acceso rápido desde todos tus dispositivos",
+    "Reason3": "✅ Comparte colecciones en segundos",
+    "Reason4": "✅ Totalmente personalizable a tu estilo",
+    "contactText":"Contáctanos"
+}
