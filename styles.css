@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Overpass";
+}
+
+body {
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #FFFDF4;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+
+.logo {
+    width: 120px;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.options {
+    list-style: none;
+    align-items: center;
+    display: flex;
+}
+
+.options li {
+    padding: 0 30px;
+}
+
+.options li a {
+    color: #9D3F23;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px;
+    position: relative;
+}
+
+.options li a::before {
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #8d5a1d85;
+    height: 3px;
+    width: 0;
+}
+
+.options li a:hover::before {
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.options li button {
+    background-color: #FFFABD;
+    width: 180px;
+    height: 45px;
+    color: #DBB741;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.options li button:hover {
+    background-color: #da994f;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+
+.options li button:active {
+    background-color: #cf9c3f;
+    color: #ffffff;
+}
+
+.Introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 85vh;
+    gap: 10px;
+    background-repeat: no-repeat;
+    background-image: url("assets/starsInicio.png");
+    background-size: contain;
+    background-position: center;
+}
+
+.Introduction h1 {
+    font-size: 128px;
+    color: #FF8B68;
+}
+
+.Introduction p {
+    text-align: center;
+    color: #9D3F23;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.Introduction button {
+    text-align: center;
+    color: #CD6464;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    background-color: #FFD16E;
+    box-shadow: 5px 5px 10px #53544058;
+}
+
+.Introduction button:hover {
+    color: #d76b6b;
+    font-size: 23px;
+    padding: 10px 50px;
+    background-color: #ffbe31;
+    transition: all 0.3s ease;
+}
+
+.Estadisticas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 85vh;
+    gap: 10px;
+    background-position: center;
+}
+
+.Estadisticas img {
+    width: 869px;
+}
+
+.EstadisticaContainer {
+    display: flex;
+    gap: 70px;
+}
+
+.ContainerEstadistica {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ContainerEstadistica h2 {
+    color: #CF5589;
+    font-size: 110px;
+}
+
+#WhatKeeplo h1 {
+    padding-top: 20px;
+    color: #EB944D;
+    font-size: 60px;
+    text-align: center;
+}
+
+#WhatKeeplo {
+    background-color: #FFFABD;
+}
+
+.charactContainter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    height: 30vw;
+}
+
+.characteristic {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 140px;
+}
+
+.characteristicBG {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.characteristicBG img {
+    width: 70px;
+    height: 80px;
+    margin: 10px;
+}
+
+.characteristic:hover .characteristicBG {
+    border-radius: 10px;
+    width: 140px;
+    height: 140px;
+    transition: all 0.4s;
+}
+
+.characteristic:hover .characteristicBG img {
+    width: 110px;
+    height: 120px;
+    transition: all 0.4s;
+}
+
+.characteristic h3 {
+    color: #9D3F23;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.characteristic p {
+    color: #3F292B;
+    font-weight: 400;
+    text-align: center;
+}
+
+.characteristic:hover h3 {
+    color: #d25b36;
+    transition: all 0.4s;
+}
+
+.KeeploUsers {
+    background-color: #FFFAF3;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.containsContainersUsers {
+    padding-top: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    width: 100%;
+}
+
+.KeeploUsers h1 {
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+    color: #FF8B68;
+    padding: 20px;
+}
+
+.containerUserKeeplo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 500px;
+}
+
+.containerUserKeeploText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.containerUserKeeploText h2 {
+    color: #9D3F23;
+    font-size: 43px;
+}
+
+.containerUserKeeploText p {
+    color: #3F292B;
+    font-size: 25px;
+    text-align: center;
+}
+
+.containerPlans {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.containerPlans img {
+    width: 70px;
+}
+
+#plans {
+    height: 110vh;
+    background-color: #FFF4E9;
+}
+
+#plans h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #8B2929;
+    padding: 50px;
+}
+
+.Plan {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    width: 348px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.Plan h3 {
+    font-size: 36px;
+    color: #9D3F23;
+}
+
+.Plan h2 {
+    font-size: 64px;
+    color: #9D3F23;
+}
+
+.Plan button {
+    position: absolute;
+    bottom: 20px;
+    left: calc(50% - 110px);
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#WhyUs {
+    padding: 30px 10px;
+}
+
+#WhyUsTitle {
+    color: #FF8B68;
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.containerWhy {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerWhy ul li {
+    font-size: 20px;
+}
+
+footer {
+    background-color: #FF8B68;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.Socials {
+    display: flex;
+    gap: 40px;
+}
+
+.Language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: fixed;
+    top: 95%;
+    right: 10px;
+    z-index: 9999;
+}
+
+.LanguageButtons {
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #e48436;
+    color: white;
+    font-family: "Inria Sans";
+}
