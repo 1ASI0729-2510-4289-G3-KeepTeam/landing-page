@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Overpass";
+}
+
+#WhyUs {
+    padding: 30px 10px;
+}
+
+#WhyUsTitle {
+    color: #FF8B68;
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.containerWhy {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerWhy ul li {
+    font-size: 20px;
+}
+
+.options {
+    list-style: none;
+    align-items: center;
+    display: flex;
+}
+
+.options li {
+    padding: 0 30px;
+}
+
+#WhyUs .containerRow {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+#WhyUs ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+
+#WhyUs ul li {
+    margin: 10px 0;
+    text-align: justify;
+    font-size: 18px;
+}
