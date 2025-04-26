@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Overpass";
+}
+body{
+    min-height: 100vh;
+}
+
+.Language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: fixed;
+    top: 95%;
+    right: 10px;
+    z-index: 9999;
+  } 
+
+.LanguageButtons{
+   
+    padding: 5px 10px 5px 10px ;
+    border-radius: 10px;
+    border: none;
+    background-color: #e48436;
+    color: white;
+    font-family: "Inria Sans";
+}
+
+.LanguageButtons:hover{
+    cursor: pointer;
+}
