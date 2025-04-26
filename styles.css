@@ -331,3 +331,59 @@ body{
     font-size: 25px;
     text-align: center;
 }
+
+.containerPlans {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.containerPlans img {
+    width: 70px;
+}
+
+#plans {
+    height: 110vh;
+    background-color: #FFF4E9;
+}
+
+#plans h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #8B2929;
+    padding: 50px;
+}
+
+.Plan {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    width: 348px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.Plan h3 {
+    font-size: 36px;
+    color: #9D3F23;
+}
+
+.Plan h2 {
+    font-size: 64px;
+    color: #9D3F23;
+}
+
+.Plan button {
+    position: absolute;
+    bottom: 20px;
+    left: calc(50% - 110px);
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
