@@ -9,6 +9,9 @@ body {
 .main-header {
     background-color: #FFFABD;
     padding: 20px 40px;
+    position:fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 /* Contenedor general del header */
