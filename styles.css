@@ -1,3 +1,4 @@
+
 /* Estilo general */
 body {
     margin: 0;
@@ -69,3 +70,50 @@ body {
 .login-btn:hover {
     background-color: #e67600;
 }
+.Introduction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 85vh;
+    gap: 10px;
+    background-repeat: no-repeat;
+    background-image: url("assets/starsInicio.png");
+    background-size:contain;
+    background-position: center;
+}
+
+.Introduction h1{
+    font-size: 128px;
+    color: #FF8B68;
+    text-align: center;
+}
+
+.Introduction p{
+    text-align: center;
+    color: #9D3F23;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.Introduction button{
+    text-align: center;
+    color: #CD6464;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    background-color: #FFD16E;
+    box-shadow: 5px 5px 10px #53544058;
+}
+
+.Introduction button:hover{
+    text-align: center;
+    color: #d76b6b;
+    font-size: 23px;
+    padding: 10px 50px;
+    background-color: #ffbe31;
+    transition: all 0.3s ease;
+}
+
