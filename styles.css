@@ -441,3 +441,24 @@ body{
     text-align: justify;
     font-size: 18px;
 }
+
+footer{
+    background-color: #FF8B68;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.Socials{
+    display: flex;
+    gap: 40px;
+}
