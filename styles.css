@@ -142,7 +142,7 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 0 2rem;
+    padding: 2rem 2rem;
 }
 
 .number-container {
@@ -186,3 +186,93 @@ body {
 .number-container:nth-child(2) .sub-text {
     left: 50px; 
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Overpass";
+}
+
+body{
+    min-height: 100vh;
+}
+
+#WhatKeeplo h1{
+    padding-top: 20px;
+    color: #EB944D;
+    font-size: 60px;
+    text-align: center;
+}
+.charactContainter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.characteristic
+{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 140px;
+}
+
+#WhatKeeplo{
+    background-color: #FFFABD;
+}
+.charactContainter{
+    display: flex;
+    gap: 80px;
+    height: 30vw;
+}
+.characteristic p
+{
+    text-align: center;
+}
+.characteristicBG{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.characteristicBG img{
+    width: 70px;
+    height: 80px;
+    margin: 10px;
+}
+
+.characteristic:hover .characteristicBG{
+    border-radius: 10px;
+    width: 140px;
+    height: 140px;
+    transition: all 0.4s;
+
+}
+
+.characteristic:hover .characteristicBG img{
+    width: 110px;
+    height: 120px;
+    transition: all 0.4s;
+
+}
+
+.characteristic h3{
+    color: #9D3F23;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.characteristic p{
+    color: #3F292B;
+    font-weight: 400;
+    text-align: center;
+}
+.characteristic:hover h3{
+    color: #d25b36;
+    transition: all 0.4s;}
