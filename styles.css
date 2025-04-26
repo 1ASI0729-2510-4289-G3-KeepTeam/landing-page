@@ -1,3 +1,123 @@
+
+/* Estilo general */
+body {
+    margin: 0;
+    font-family: 'Overpass', sans-serif;
+}
+
+/* Header principal */
+.main-header {
+    background-color: #FFFABD;
+    padding: 20px 40px;
+}
+
+/* Contenedor general del header */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Lado izquierdo con el logo */
+.left-side {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 60px;
+    margin-right: 20px;
+}
+
+/* Navegación y botón a la derecha */
+.right-side {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Lista de navegación */
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #2E2E2E;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.nav a:hover {
+    color: #FF8A00;
+}
+
+/* Botón de login */
+.login-btn {
+    background-color: #FF8A00;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #e67600;
+}
+.Introduction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 85vh;
+    gap: 10px;
+    background-repeat: no-repeat;
+    background-image: url("assets/starsInicio.png");
+    background-size:contain;
+    background-position: center;
+}
+
+.Introduction h1{
+    font-size: 128px;
+    color: #FF8B68;
+    text-align: center;
+}
+
+.Introduction p{
+    text-align: center;
+    color: #9D3F23;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.Introduction button{
+    text-align: center;
+    color: #CD6464;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    background-color: #FFD16E;
+    box-shadow: 5px 5px 10px #53544058;
+}
+
+.Introduction button:hover{
+    text-align: center;
+    color: #d76b6b;
+    font-size: 23px;
+    padding: 10px 50px;
+    background-color: #ffbe31;
+    transition: all 0.3s ease;
+}
+
+
 .statistics-section {
     display: flex;
     flex-direction: column;
