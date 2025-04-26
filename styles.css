@@ -276,3 +276,58 @@ body{
 .characteristic:hover h3{
     color: #d25b36;
     transition: all 0.4s;}
+
+    #keeplouserTitle{
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+    color:#FF8B68;
+    padding: 20px;
+}
+
+#KeeploUsers{
+    background-color: #FFFAF3;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+.containerUsers{
+    padding-top: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    width: 100%;
+}   
+#KeeploUsers h1{
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+    color:#FF8B68;
+    padding: 20px;
+}
+.userKeeplo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 500px;
+}
+
+.containerUserText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.containerUserText h2{
+    color: #9D3F23;
+    font-size: 43px;
+}
+.containerUserText p{
+    color: #3F292B;
+    font-size: 25px;
+    text-align: center;
+}
