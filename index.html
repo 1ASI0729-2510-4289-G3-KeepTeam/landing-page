@@ -4,22 +4,228 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Keeplo</title>
-    <link rel="icon" href="/assets/Logos/logo-keeplo-no-text.png">
+    <link rel="icon" href="assets/Logos/logo-keeplo-no-text.png">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dekko&family=Inder&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Kirang+Haerang&family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    
+
 </head>
 <body>
 
-    <h1 id="introductionDesc"></h1>
+    <header class="main-header">
+        <div class="container">
+            <div class="left-side">
+                <img src="assets/Logos/LogoKeeplo2.png" alt="Logo" class="logo">
+            </div>
+    
+            <div class="right-side">
+                <nav class="nav">
+                    <ul>
+                        <li><a href="#" id="navItem1">What's Keeplo</a></li>
+                        <li><a href="#" id="navItem2">Plans</a></li>
+                        <li><a href="#" id="navItem3">Why Us?</a></li>
+                    </ul>
+                </nav>
+                <a href="login.html" class="login-btn" id="login">Log in</a>
+            </div>
+        </div>
+    </header>
+    
+    
+    
+    <section class="Introduction" aria-label="Introduction section">
+        <h1>Keeplo</h1>
+        <p id="introductionDesc"></p>
+        <button id="startIntroduction"></button>
+    </section>
+    
+    
+        <section class="statistics-section">
+            <div class="statistics-image-container">
+                <img src="assets/stadistics.png" alt="Statistics Image">
+            </div>
+        
+            <div class="statistics-info">
+                <div class="statistics-numbers">
+                    <div class="number-container">
+                        <div class="number">+100</div>
+                        <div class="sub-text">Shared Collections</div>
+                    </div>
+                    <div class="number-container">
+                        <div class="number">+2000</div>
+                        <div class="sub-text">Organized Ideas</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    
 
-    <div class="Language" aria-label="Language Selector">
-        <button onclick="setLanguage('es')" class="LanguageButtons" aria-label="Cambiar a Español">ES</button>
-        <button onclick="setLanguage('en')" class="LanguageButtons" aria-label="Change to english">EN</button>
+
+<section id="WhatKeeplo" aria-label="What is Keeplo section">
+    <h1 id="WhatsKeeploTitulo"></h1>
+
+    <div class="charactContainter">
+
+        <div class="characteristic">
+
+            <div class="characteristicBG" style="background-color: #A7E3EF;">
+
+                <img src="assets/share.png" alt="Share icon">
+
+            </div>
+
+            <h3 id="characteristic1Title"></h3>
+            <p id="characteristic1desc"></p>
+
+        </div>
+
+        <div class="characteristic">
+
+            <div class="characteristicBG" style="background-color: #FF8B68;">
+
+                <img src="assets/organization.png" alt="organization icon">
+
+            </div>
+
+            <h3 id="characteristic2Title"></h3>
+            <p id="characteristic2desc"></p>
+
+        </div>
+
+        <div class="characteristic">
+
+            <div class="characteristicBG" style="background-color: #F3A738;">
+
+                <img src="assets/clock 1.png" alt="clock icon">
+
+            </div>
+
+            <h3 id="characteristic3Title"></h3>
+            <p id="characteristic3desc"></p>
+
+        </div>
     </div>
 
+</section>
+
+<section id="KeeploUsers" aria-label="The Users of Keeplo section">
+
+    <h1 id="keeplouserTitle"></h1>
+
+    <div class="containerUsers">
+    <div class="userKeeplo">
+        <img src="assets/shopping-svgrepo-com 1.png" alt="Shopping cart icon">
+
+        <div class="containerUserText">
+            <h2 id="keeploUserTitle1"></h2>
+            <p id="keeploUserdesc1"></p>
+        </div>
+
+    </div>
+
+    <div class="userKeeplo">
+        <img src="assets/artist.png" alt="artist palette icon">
+
+        <div class="containerUserText">
+            <h2 id="keeploUserTitle2"></h2>
+            <p id="keeploUserdesc2"></p>
+        </div>
+
+    </div>
+</div>
+</section>
+
+<title>Keeplio</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dekko&family=Inder&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Kirang+Haerang&family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<style>
+    button {
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 8px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+        transition: all 0.3s ease;
+    }
+
+    button:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+</style>
+</head>
+<body>
+
+<section id="plans" aria-label="Plans section">
+
+<h1 id="plansTitle">Plans</h1>
+
+<div class="containerPlans">
+    <div class="Plan">
+        <img src="assets/shopping-svgrepo-com 1.png" alt="shopping cart icon">
+        <h3 id="Plan1Title">Shopper</h3>
+        <h2 id="Plan1Price">$5</h2>
+        <p id="Plan1Description">For the strategic spenders.</p>
+        <ul>
+            <li id="Plan1Char1">Comparing products across sites.</li>
+            <li id="Plan1Char2">Tracking deals or products updates.</li>
+            <li id="Plan1Char3">Sharing items with friends/family before buying.</li>
+        </ul>
+        <button id="ButtonStartPlan1" style="background-color: #FEDD72;color: #BD6412;">Start as a Shopper</button>
+    </div>
+
+    <div class="Plan">
+        <img src="assets/artist.png" alt="artist palette icon">
+        <h3 id="Plan2Title">Designer</h3>
+        <h2 id="Plan2Price">$10</h2>
+        <p id="Plan2Description">For those who have art on their mind.</p>
+        <ul>
+            <li id="Plan2Char1">Save images from anywhere</li>
+            <li id="Plan2Char2">Organize your visual ideas</li>
+            <li id="Plan2Char3">Tagging/annotating content</li>
+            <li id="Plan2Char4">Preparing content for visual presentations</li>
+            <li id="Plan2Char5">Moodboart export</li>
+            <li id="Plan2Char6">QR sharing</li> 
+        </ul>
+        <button id="ButtonStartPlan2" style="background-color: #FF8B68;color: white;">Start as a Designer</button>
+    </div>
+</div>
+</section>
+
+<section id="WhyUs" aria-label="Why Us section">
+<h1 id="WhyUsTitle"></h1>
+
+<div class="containerRow">
+    <img src="assets/image 17.png" alt="Post-its Image">
+    <ul>
+        <li id="Reason1"></li>
+        <li id="Reason2"></li>
+        <li id="Reason3"></li>
+        <li id="Reason4"></li>
+    </ul>
+</div>
+
+</section>
+
+<footer aria-label="Footer section">
+    <div class="containerFooter">
+        <img src="assets/Logos/LogoKeeplo2.png" alt="Logo Keeplo">
+        <div class="Socials" aria-label="Redes sociales de Keeplo">
+            <img src="assets/facebook.png" alt="Logo Facebook" aria-label="Redirect to Facebook page" >
+            <img src="assets/instagram.png" alt="Logo Instagram" aria-label="Redirect to  Instagram page">
+            <img src="assets/twitter.png" alt="Logo Twitter" aria-label="Redirect to Twitter page">
+        </div>
+        <h1 id="contactText" style="color: #FFFAF3;font-size: 30px;"></h1>
+    </div>
+</footer>
+
+<div class="Language" aria-label="Language Selector">
+    <button onclick="setLanguage('es')" class="LanguageButtons" aria-label="Cambiar a Español">ES</button>
+    <button onclick="setLanguage('en')" class="LanguageButtons" aria-label="Change to english">EN</button>
+</div>
 
     <script src="script.js"></script>
 </body>
