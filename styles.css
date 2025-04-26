@@ -462,3 +462,28 @@ footer{
     display: flex;
     gap: 40px;
 }
+
+.Language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: fixed;
+    top: 95%;
+    right: 10px;
+    z-index: 9999;
+  } 
+
+.LanguageButtons{
+
+    padding: 5px 10px 5px 10px ;
+    border-radius: 10px;
+    border: none;
+    background-color: #e48436;
+    color: white;
+    font-family: "Inria Sans";
+}
+
+.LanguageButtons:hover{
+    cursor: pointer;
+}
