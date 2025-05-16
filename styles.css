@@ -99,7 +99,7 @@ body {
     font-weight: 300;
 }
 
-.Introduction button{
+.Introduction .button{
     text-align: center;
     color: #CD6464;
     padding: 10px 25px;
@@ -109,9 +109,10 @@ body {
     font-weight: 300;
     background-color: #FFD16E;
     box-shadow: 5px 5px 10px #53544058;
+    text-decoration: none;
 }
 
-.Introduction button:hover{
+.Introduction .button:hover{
     text-align: center;
     color: #d76b6b;
     font-size: 23px;
