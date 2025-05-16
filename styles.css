@@ -490,3 +490,7 @@ footer{
 .LanguageButtons:hover{
     cursor: pointer;
 }
+
+*{
+    scroll-behavior: smooth;
+}
