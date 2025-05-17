@@ -328,11 +328,11 @@ body{
 
 .containerUserText h2{
     color: #9D3F23;
-    font-size: 43px;
+    font-size: 2rem;
 }
 .containerUserText p{
     color: #3F292B;
-    font-size: 25px;
+    font-size: 1rem;
     text-align: center;
 }
 
@@ -367,7 +367,7 @@ body{
     gap: 10px;
     background-color: rgb(255, 255, 255);
     padding: 40px;
-    width: 30%;
+    width: 0%;
     height: 600px;
     border-radius: 10px;
 }
