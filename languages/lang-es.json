@@ -26,16 +26,14 @@
     "keeploUserdesc2": "Guarda inspiración visual de cualquier lugar en un solo sitio.",
     
     "plansTitle": "Planes",
-    "Plan1Title": "Comprador",
-    "Plan1Price":"$5",
+    "Plan1Title": "Plus - Comprador",
     "Plan1Description":"Para los que gastan con estrategia",
     "Plan1Char1": "Comparación de productos entre sitios",
     "Plan1Char2":"Seguimiento de ofertas o actualizaciones",
-    "Plan1Char3": "Compartir artículos con amigos/familia antes de comprar",
-    "ButtonStartPlan1": "Ser Comprador",
+    "Plan1Char3": "Comparctir artículos con amigos/familia antes de comprar",
+    "ButtonStartPlan1": "Comprar Plan Plus",
 
-    "Plan2Title": "Diseñador",
-    "Plan2Price":"$10",
+    "Plan2Title": "Infinito - Diseñador",
     "Plan2Description":"Para quienes piensan en arte",
     "Plan2Char1": "Guardar imágenes desde cualquier lugar",
     "Plan2Char2":"Organiza tus ideas visuales",
@@ -43,8 +41,7 @@
     "Plan2Char4": "Preparar contenido para presentaciones visuales",
     "Plan2Char5": "Exportación de moodboards",
     "Plan2Char6": "Compartir por QR",
-
-    "ButtonStartPlan2": "Ser Diseñador",
+    "ButtonStartPlan2": "Comprar Plan Infinito",
 
     "WhyUsTitle": "¿Por qué nosotros?",
     "Reason1": "✅ No más caos de capturas de pantalla",

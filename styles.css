@@ -367,7 +367,7 @@ body{
     gap: 10px;
     background-color: rgb(255, 255, 255);
     padding: 40px;
-    width: 348px;
+    width: 30%;
     height: 600px;
     border-radius: 10px;
 }
@@ -386,7 +386,9 @@ body{
     text-decoration: none;
     position: absolute;
     bottom: 20px;
-    left: calc(50% - 110px);
+    width: 80%;
+    text-align: center;
+    left: calc(50% - 80%/2);
     padding: 10px 25px;
     border: none;
     border-radius: 10px;
