@@ -30,10 +30,19 @@
     "Plan1Description":"Para los que gastan con estrategia",
     "Plan1Char1": "Comparación de productos entre sitios",
     "Plan1Char2":"Seguimiento de ofertas o actualizaciones",
-    "Plan1Char3": "Comparctir artículos con amigos/familia antes de comprar",
-    "ButtonStartPlan1": "Comprar Plan Plus",
+    "Plan1Char3": "Compartir artículos con amigos/familia antes de comprar",
+    "ButtonStartPlan1": "Ser Comprador",
 
-    "Plan2Title": "Infinito - Diseñador",
+
+    "sharedCollections.number": "+100",
+  "sharedCollections.text": "Colecciones compartidas",
+  "organizedIdeas.number": "+2000",
+  "organizedIdeas.text": "Ideas organizadas",
+   "demoWorks": "Mira cómo funciona",
+ 
+
+    "Plan2Title": "Diseñador",
+    "Plan2Price":"$10",
     "Plan2Description":"Para quienes piensan en arte",
     "Plan2Char1": "Guardar imágenes desde cualquier lugar",
     "Plan2Char2":"Organiza tus ideas visuales",
