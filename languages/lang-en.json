@@ -18,7 +18,11 @@
 
     "characteristic3Title": "Efficiency",
     "characteristic3desc":"Find your stored ideas in one search ",
-    
+
+    "sharedCollections.number": "+100",
+  "sharedCollections.text": "Shared Collections",
+  "organizedIdeas.number": "+2000",
+  "organizedIdeas.text": "Organized Ideas",
     "keeplouserTitle": "Who’s Keeplo for?",
     "keeploUserTitle1": "Shoppers",
     "keeploUserdesc1": "Keep track of products you love.",

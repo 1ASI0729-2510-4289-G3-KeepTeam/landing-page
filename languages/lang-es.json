@@ -34,6 +34,13 @@
     "Plan1Char3": "Compartir artículos con amigos/familia antes de comprar",
     "ButtonStartPlan1": "Ser Comprador",
 
+
+    "sharedCollections.number": "+100",
+  "sharedCollections.text": "Colecciones compartidas",
+  "organizedIdeas.number": "+2000",
+  "organizedIdeas.text": "Ideas organizadas",
+ 
+
     "Plan2Title": "Diseñador",
     "Plan2Price":"$10",
     "Plan2Description":"Para quienes piensan en arte",
